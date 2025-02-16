@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
@@ -11,7 +10,9 @@ int main() {
     else if (ch >= 'a' && ch <= 'z') {
         printf("Lowercase");
     } 
-  
+    else {
+        printf("Not a alphabet");
+    }
 
     return 0;
 }
