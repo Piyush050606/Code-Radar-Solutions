@@ -11,5 +11,9 @@ int main()
     {printf("Digit");}
     else if(a=='@' ||a=='!')
     {printf("Special Character");}
+    else
+    {
+        printf("Constant")
+    }
     return 0;
 }
