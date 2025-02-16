@@ -9,7 +9,7 @@ int main()
     }
     else if(a>='0' && a<='9')
     {printf("Digit");}
-    else if(a==@)
+    else if(a=='@' ||a=='!')
     {printf("Special");}
     return 0;
 }
