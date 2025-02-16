@@ -13,7 +13,7 @@ int main()
     {printf("Special Character");}
     else
     {
-        printf("Constant")
+        printf("Constant");
     }
     return 0;
 }
