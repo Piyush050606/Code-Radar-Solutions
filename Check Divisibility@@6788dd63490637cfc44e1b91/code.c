@@ -3,7 +3,7 @@ int main()
 {
     int i;
     scanf("%d",&a);
-    if(i%11==0 && i%5==0)
+    if((i%11==0) && (i%5==0))
     {printf("Divisible")
     }
     else
